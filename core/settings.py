@@ -97,10 +97,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ghoul228$postgres',
-        'USER': 'ghoul228',
-        'PASSWORD': 'zxc228',  # Здесь должен быть ваш пароль
-        'HOST': 'ghoul228.postgresql.pythonanywhere-services.com',  # Имя контейнера PostgreSQL
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '12345',  # Здесь должен быть ваш пароль
+        'HOST': '127.0.0.1',  # Имя контейнера PostgreSQL
         'PORT': '5432',
     }
 }
