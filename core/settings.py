@@ -27,9 +27,9 @@ load_dotenv(BASE_DIR / '.env')
 SECRET_KEY = "mefzxcghoul1000-7"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
